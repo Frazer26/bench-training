@@ -8,8 +8,8 @@ public interface Electronic {
     int getElectricityUse();
 
     // Static method
-    static boolean isEnergyEfficient(String electtronicType) {
-        if (electtronicType.equals(LED)) {
+    static boolean isEnergyEfficient(String electronicType) {
+        if (electronicType.equals(LED)) {
             return true;
         }
         return false;

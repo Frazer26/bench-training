@@ -38,3 +38,5 @@ out/
 
 # Log file
 *.log
+# Default ignored files
+/workspace.xml
